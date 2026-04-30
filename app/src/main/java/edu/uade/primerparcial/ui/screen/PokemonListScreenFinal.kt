@@ -1,4 +1,4 @@
-package edu.uade.primerparcial.ui.theme.screen
+package edu.uade.primerparcial.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import edu.uade.primerparcial.PokemonItem
+import edu.uade.primerparcial.ui.PokemonItem
 import edu.uade.primerparcial.viewModel.PokemonViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package edu.uade.primerparcial.ui.theme.screen
+package edu.uade.primerparcial.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

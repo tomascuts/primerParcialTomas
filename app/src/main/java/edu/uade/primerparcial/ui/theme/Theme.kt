@@ -1,4 +1,4 @@
-package edu.uade.primerparcial.ui.theme.theme
+package edu.uade.primerparcial.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
