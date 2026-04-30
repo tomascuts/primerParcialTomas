@@ -1,4 +1,4 @@
-package edu.uade.primerparcial.ui.theme
+package edu.uade.primerparcial.ui.theme.theme
 
 import androidx.compose.ui.graphics.Color
 
