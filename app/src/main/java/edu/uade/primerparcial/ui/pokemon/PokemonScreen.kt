@@ -18,13 +18,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import edu.uade.primerparcial.viewModel.PokemonViewModel
+import androidx.compose.runtime.collectAsState
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PokemonScreen(
     viewModel: PokemonViewModel = viewModel()
 ) {
-    val uiState = viewModel.uiState.value
+    val uiState = viewModel.uiState.collectAsState().value
 
     Scaffold(
         topBar = {
